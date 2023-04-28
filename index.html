@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- common meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo/faveicon.jpg" type="image/x-icon">
+    <!--=== fontaswesome ===-->
+    <link rel="stylesheet" href="https://bostamihtml.ibthemespro.com/assets/fontaswesome/css/all.min.css" />
+    <link rel="stylesheet" href="https://bostamihtml.ibthemespro.com/assets/fontaswesome/css/fontawesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <!--=== owl carousel css === -->
+    <link rel="stylesheet" href="https://bostamihtml.ibthemespro.com/css/vendor/slick.css">
+    <!--=== main css ===-->
+    <link rel="stylesheet" href="https://bostamihtml.ibthemespro.com/css/tailwind.css" />
+    <link rel="stylesheet" href="https://bostamihtml.ibthemespro.com/css/custom.css" />
+    <title>Thais Babysitter - Book a service now</title>
+    <script>
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+        if (localStorage.getItem("color-theme") === "dark" || (!("color-theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+            document.documentElement.classList.add("dark");
+        } else {
+            document.documentElement.classList.remove("dark");
+        }
+    </script>
+</head>
+
+<body>
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="loader_line"></div>
+    </div>
+    <!-- /PRELOADER -->
+
+    <div class="bg-homeBg min-h-screen dark:bg-homeBg-dark bg-no-repeat bg-center bg-cover bg-fixed md:pb-16 w-full">
+        <div class="z-50">
+            <!-- container start -->
+            <div class="container">
+                <!-- header start for large screens -->
+                <header class="flex justify-between items-center fixed top-0 left-0 w-full lg:static z-[1111111111]">
+
+                </header>
+                <!-- header  end -->
+
+                <!-- about page contant start -->
+                <div>
+                    <div class="container lg:rounded-2xl bg-white dark:bg-[#111111] px-4 sm:px-5 md:px-10 lg:px-20">
+                        <div data-aos="fade" class="aos-init aos-animate">
+                            <div class="py-12">
+                                <!-- about page title -->
+                                <h2 class="after-effect after:left-52 mt-12 lg:mt-0"> About Me </h2>
+                                <div class="grid grid-cols-12 md:gap-10 pt-4 md:pt-[40px] items-center">
+                                    <div class="col-span-12 md:col-span-4">
+                                        <!-- about me image -->
+                                        <img class="w-full md:w-[330px] md:h-[400px] object-cover overflow-hidden rounded-[35px] mb-3 md:mb-0"
+                                            src="./images/thais_funny_hat.jpg" alt="about image" />
+                                    </div>
+                                    <div class="col-span-12 md:col-span-8 space-y-2.5">
+                                        <!-- who am i content  -->
+                                        <div class="md:mr-12 xl:mr-16">
+                                            <h3 class="text-4xl font-medium dark:text-white mb-2.5"> Who am I? </h3>
+                                            <p class="text-gray-lite dark:text-color-910 leading-7">
+                                                I'm a experienced Babysitter and Unlicensed Health Care Aide from Winnipeg, Manitoba. 
+                                                I enjoy taking care of young kids and babies. I've worked in Child Care Center and had my own Home Day Care.
+                                                Now I am working as Unlicensed Health Care Aide for Rivera Long Term Care and provide Freelance Babysitter services.
+                                            </p>
+                                            <p class="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
+                                                My aim is to provide to young kids, babies and elders the care and attention that they deserve.
+                                                I provided child care for multiple families in Winnipeg. Check some of the testimonies <a href="#testimonials">here</a> </p>
+                                        </div>
+
+                                        <!-- personal info -->
+                                        <div>
+                                            <h3 class="text-4xl font-medium my-5 dark:text-white"> Personal Info </h3>
+                                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                                <div class="flex">
+                                                    <span
+                                                        class="text-oriange dark:bg-color-990 shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 text-">
+                                                        <img class="w-6 h-6 object-contain block" src="./images/icons/mobile-screen-button.svg" alt="icon" />
+                                                    </span>
+                                                    <div class="space-y-1">
+                                                        <p class="text-xs text-gray-lite dark:text-color-910"> Phone
+                                                        </p>
+                                                        <h6 class="font-medium dark:text-white"> +1(431)688-1551 </h6>
+                                                    </div>
+                                                </div>
+
+                                                <div class="flex">
+                                                    <span
+                                                        class="text-oriange-lite dark:bg-color-990 shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 text-">
+                                                        <img class="w-6 h-6 object-contain block" src="./images/icons/location-dot.svg" alt="icon" />
+                                                    </span>
+                                                    <div class="space-y-1">
+                                                        <p class="text-xs text-gray-lite dark:text-color-910"> Location
+                                                        </p>
+                                                        <h6 class="font-medium dark:text-white"> Winnipeg/MB - Canada </h6>
+                                                    </div>
+                                                </div>
+
+                                                <div class="flex">
+                                                    <span
+                                                        class="text-green dark:bg-color-990 shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 text-">
+                                                        <img class="w-6 h-6 object-contain block" src="./images/icons/envelope-open-text.svg" alt="icon" />
+                                                    </span>
+                                                    <div class="space-y-1">
+                                                        <p class="text-xs text-gray-lite dark:text-color-910"> Email
+                                                        </p>
+                                                        <h6 class="font-medium dark:text-white"> <a href="mailto:cxtvsthais@gmail.com">cxtvsthais@gmail.com</a> </h6>
+                                                    </div>
+                                                </div>
+
+                                                <div class="flex">
+                                                    <span
+                                                        class="text-color-50 dark:bg-color-990 shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 text-">
+                                                        <img class="w-6 h-6 object-contain block" src="./images/icons/calendar-days.svg" alt="icon" />
+                                                    </span>
+                                                    <div class="space-y-1">
+                                                        <p class="text-xs text-gray-lite dark:text-color-910"> Birthday
+                                                        </p>
+                                                        <h6 class="font-medium dark:text-white"> Feb 04, 1993 </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- whai i do contain -->
+                            <div class="pb-12">
+                                <h3 class="text-[35px] dark:text-white font-medium pb-5"> What I do! </h3>
+                                <div class="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+                                    <div class="about-box dark:bg-transparent bg-[#fcf4ff]">
+                                        <img class="w-10 h-10 object-contain block" src="./images/icons/fa-people-roof.svg" alt="icon" />
+                                        <div class="space-y-2">
+                                            <h3 class="dark:text-white text-2xl font-semibold"> In-home Babysitting </h3>
+                                            <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]"> 
+                                                I take care of your baby and/or young kid on the confort of your home. 
+                                                Where they fill safe, confort and love. I'll follow your house rules and care that they follow it too.
+                                                Fill free to contact me to book In-home Babysitting service.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="about-box dark:bg-transparent bg-[#fefaf0]">
+                                        <img class="w-10 h-10 object-contain block" src="./images/icons/house-chimney-window.svg" alt="icon" />
+                                        <div class="space-y-2">
+                                            <h3 class="dark:text-white text-2xl font-semibold"> My Home Babysitting </h3>
+                                            <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
+                                                If you prefer to bring your young kid or babie to my home to be cared, I also provide that possibility.
+                                                My home has a nice space for your kid to enjoy and I'll care for them with plenty activities where they will 
+                                                have fun and enjoy. My Home is on Transcona Neighborhood neir the Costco at Regent.
+                                                Send me a message to book a visit to My home before booking a service.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="about-box dark:bg-transparent bg-[#fcf4ff]">
+                                        <img class="w-10 h-10 object-contain block" src="./images/icons/clock.svg" alt="icon" />
+                                        <div class="space-y-2">
+                                            <h3 class="dark:text-white text-2xl font-semibold"> Short time care </h3>
+                                            <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]"> 
+                                                If you need to attend to an event or appointment and need someone to care for your kid or baby for a short time 
+                                                I also offer this service. I'll go to any place in Winnipeg in which you would like for me to care your child for 
+                                                the short time and you will be free for your event or appointment.
+                                                Call me to arrange details of the Short time care. 
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="about-box dark:bg-transparent bg-[#fff4f4]">
+                                        <img class="w-10 h-10 object-contain block" src="./images/icons/baby-carriage.svg" alt="icon" />
+                                        <div class="space-y-2">
+                                            <h3 class="dark:text-white text-2xl font-semibold"> Come along Care </h3>
+                                            <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]"> 
+                                                If you need someone to come along with you to an event, shopping and would like someone to 
+                                                keep eyes on your child all the time? I can also provide that service.
+                                                Contact me by phone or email to arrange the details. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- what i do contain end -->
+                            <div>
+                                <div class="bg-[#F8FBFB] dark:bg-[#0D0D0D] max-w-full h-auto py-10 rounded-xl">
+                                    <h3 id='testimonials' class="text-center dark:text-white text-6xl mb-3 font-semibold">Testimonials</h3>
+                                    <!-- slider and slider items start -->
+                                    <div class="slickTwo px-2 pt-8">
+                                        <div>
+                                            <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">Testimonial 1</p>
+                                        </div>
+                                        <div>
+                                            <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">Testimonial 2</p>
+                                        </div>
+                                        <div>
+                                            <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">Testimonial 3</p>
+                                        </div>
+                                        <div>
+                                            <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">Testimonial 4</p>
+                                        </div>
+                                        <div>
+                                            <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">Testimonial 5</p>
+                                        </div>
+                                        <div>
+                                            <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">Testimonial 6</p>
+                                        </div>
+                                        <div>
+                                            <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">Testimonial 7</p>
+                                        </div>
+                                    </div>
+                                    <!-- slider and slider items end -->
+                                </div>
+                            </div>
+
+                            <!-- footer section start -->
+                            <footer class="overflow-hidden rounded-b-2xl" style="background: transparent;">
+                                <p class="text-center py-6 text-gray-lite dark:text-color-910"> © 2023 All Rights
+                                    Reserved by <a class="hover:text-[#FA5252] duration-300 transition"
+                                        href="https://thaisbabysitter.github.io" target="_blank"
+                                        rel="noopener noreferrer"> Thais Vieira</a>. </p>
+                            </footer>
+                            <!-- footer section end -->
+                        </div>
+                    </div>
+                </div>
+                <!-- about section end  -->
+            </div>
+        </div>
+    </div>
+
+
+    <!--==== js =====-->
+    <script src="https://bostamihtml.ibthemespro.com/js/vendor/jquary.min.js"></script>
+    <script src="https://bostamihtml.ibthemespro.com/js/vendor/slick.js"></script>
+    <!-- main js -->
+    <script src="https://bostamihtml.ibthemespro.com/js/main.js"></script>
+</body>
+
+</html>
